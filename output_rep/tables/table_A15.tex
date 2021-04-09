@@ -1,0 +1,23 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{2}{c}{\shortstack{Incidence\\1(Conflict $>0$)}}&\multicolumn{2}{c}{1(\shortstack{Onset\\Conflict Begins)}}&\multicolumn{2}{c}{\shortstack{Offset\\1(Conflict Ends)}}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         \\
+\hline
+\hline
+\\ Producer Price Index&      0.0105         &      0.0110         &      0.0086         &      0.0084         &      0.0108         &      0.0074         \\
+\hspace{15pt} Two-way SE&       0.002         &       0.002         &       0.002         &       0.002         &       0.004         &       0.006         \\
+\hspace{25pt} p-value&       0.000         &       0.000         &       0.000         &       0.000         &       0.007         &       0.205         \\
+\\ Consumer Price Index&                     &      0.0057         &                     &      0.0026         &                     &     -0.1550         \\
+\hspace{15pt} Two-way SE&                     &       0.001         &                     &       0.001         &                     &       0.022         \\
+\hspace{25pt} p-value&                     &       0.000         &                     &       0.019         &                     &       0.000         \\
+\hline \\ PPI impact (\%)&        48.7         &        51.0         &        64.1         &        62.9         &         2.3         &         1.6         \\
+CPI impact (\%)     &                     &        26.5         &                     &        19.2         &                     &       -33.1         \\
+\hline \\ Country $\times$ year FE&         Yes         &          No         &         Yes         &          No         &         Yes         &          No         \\
+Country $\times$ time trend&         N/A         &         Yes         &         N/A         &         Yes         &         N/A         &         Yes         \\
+Cell FE             &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         \\
+Observations        &      173876         &      158270         &      172443         &      156940         &        2698         &        2762         \\
+\hline\hline
+\end{tabular}
+}

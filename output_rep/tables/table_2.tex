@@ -1,0 +1,26 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{9}{c}}
+\hline\hline
+                    &\multicolumn{3}{c}{\shortstack{Incidence\\1(Conflict $>0$)}}     &\multicolumn{3}{c}{1(\shortstack{Onset\\Conflict Begins)}}       &\multicolumn{3}{c}{\shortstack{Offset\\1(Conflict Ends)}}        \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         &\multicolumn{1}{c}{(7)}         &\multicolumn{1}{c}{(8)}         &\multicolumn{1}{c}{(9)}         \\
+\hline
+\hline
+\\ Producer Price Index&     -0.0042         &     -0.0046         &     -0.0043         &     -0.0024         &     -0.0029         &     -0.0027         &      0.0443         &      0.0494         &      0.0385         \\
+\hspace{15pt} Two-way SE&       0.002         &       0.001         &       0.001         &       0.001         &       0.001         &       0.001         &       0.022         &       0.023         &       0.020         \\
+\hspace{25pt} p-value&       0.007         &       0.001         &       0.002         &       0.020         &       0.006         &       0.012         &       0.044         &       0.029         &       0.060         \\
+\\ Consumer Price Index&                     &      0.0023         &      0.0064         &                     &      0.0015         &      0.0054         &                     &     -0.0881         &     -0.1066         \\
+\hspace{15pt} Two-way SE&                     &       0.001         &       0.006         &                     &       0.001         &       0.004         &                     &       0.026         &       0.092         \\
+\hspace{25pt} p-value&                     &       0.116         &       0.319         &                     &       0.161         &       0.138         &                     &       0.001         &       0.248         \\
+\hline \\ PPI impact (\%)&       -15.4         &       -17.2         &       -16.1         &       -16.3         &       -20.0         &       -18.7         &         8.3         &         9.2         &         7.2         \\
+CPI impact (\%)     &                     &         8.6         &        23.7         &                     &        10.2         &        37.7         &                     &       -16.5         &       -19.9         \\
+Wald test: PPI = CPI&                     &                     &                     &                     &                     &                     &                     &                     &                     \\
+\hspace{15pt} Two-way p-value&                     &       0.000         &       0.097         &                     &       0.002         &       0.035         &                     &       0.001         &       0.135         \\
+\hline \\ Country $\times$ year FE&         Yes         &          No         &          No         &         Yes         &          No         &          No         &         Yes         &          No         &          No         \\
+Year FE             &          No         &          No         &         Yes         &          No         &          No         &         Yes         &          No         &          No         &         Yes         \\
+Country $\times$ time trend&         N/A         &         Yes         &         Yes         &         N/A         &         Yes         &         Yes         &         N/A         &         Yes         &         Yes         \\
+Cell FE             &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         \\
+Observations        &      225016         &      204820         &      204820         &      222132         &      202297         &      202297         &        5108         &        4631         &        4631         \\
+\hline\hline
+\end{tabular}
+}

@@ -1,0 +1,25 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{2}{c}{\shortstack{Incidence\\1(Conflict $>0$)}}&\multicolumn{2}{c}{1(\shortstack{Onset\\Conflict Begins)}}&\multicolumn{2}{c}{\shortstack{Offset\\1(Conflict Ends)}}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         \\
+\hline
+\hline
+\\ Producer Price Index&      0.0086         &      0.0047         &      0.0075         &      0.0056         &      0.0050         &      0.0187         \\
+\hspace{15pt} Two-way SE&       0.003         &       0.003         &       0.002         &       0.003         &       0.005         &       0.007         \\
+\hspace{25pt} p-value&       0.001         &       0.096         &       0.001         &       0.035         &       0.356         &       0.005         \\
+\\ Consumer Price Index&      0.0107         &      0.0001         &      0.0061         &     -0.0023         &     -0.1318         &     -0.2173         \\
+\hspace{15pt} Two-way SE&       0.004         &       0.007         &       0.004         &       0.005         &       0.031         &       0.074         \\
+\hspace{25pt} p-value&       0.015         &       0.989         &       0.098         &       0.651         &       0.000         &       0.004         \\
+\hline \\ PPI impact (\%)&        17.2         &         9.4         &        26.4         &        19.7         &         1.1         &         4.1         \\
+CPI impact (\%)     &        21.3         &         0.2         &        21.6         &        -8.2         &       -29.2         &       -48.1         \\
+\hline \\ Mine controls&          No         &         Yes         &          No         &         Yes         &          No         &         Yes         \\
+Weather controls    &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         \\
+Oil controls        &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         \\
+Country $\times$ time trend&         Yes         &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         \\
+Cell FE             &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         \\
+Observations        &      158015         &      110880         &      154542         &      108945         &        6765         &        3711         \\
+\hline\hline
+\end{tabular}
+}

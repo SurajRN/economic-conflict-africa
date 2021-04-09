@@ -1,0 +1,23 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{\shortstack{Incidence\\1(Conflict $>0$)}}&\multicolumn{1}{c}{1(\shortstack{Onset\\Conflict Begins)}}&\multicolumn{1}{c}{\shortstack{Offset\\1(Conflict Ends)}}\\\cmidrule(lr){2-2}\cmidrule(lr){3-3}\cmidrule(lr){4-4}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         \\
+\hline
+\hline
+\\ Producer Price Index&     -0.0871         &     -0.0823         &      0.3461         \\
+\hspace{15pt} SE    &       0.089         &       0.055         &       0.117         \\
+\hspace{15pt} p-value&       0.328         &       0.136         &       0.003         \\
+\\ Consumer Price Index&     -0.0132         &     -0.0102         &     -0.7986         \\
+\hspace{15pt} SE    &       0.120         &       0.116         &       0.143         \\
+\hspace{15pt} p-value&       0.913         &       0.930         &       0.000         \\
+\hline \\  Wald test: PPI = CPI&                     &                     &                     \\
+\hspace{15pt} p-value&       0.671         &       0.629         &       0.000         \\
+\hline \\ Time trend&         Yes         &         Yes         &         Yes         \\
+Cell fixed effects  &         Yes         &         Yes         &         Yes         \\
+Pseudo-R squared    &       0.002         &       0.003         &       0.033         \\
+Observations        &       37268         &       32532         &        3907         \\
+\hline\hline
+\end{tabular}
+}

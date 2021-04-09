@@ -1,0 +1,30 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{2}{c}{\shortstack{Incidence\\1(Conflict $>0$)}}&\multicolumn{2}{c}{1(\shortstack{Onset\\Conflict Begins)}}&\multicolumn{2}{c}{\shortstack{Offset\\1(Conflict Ends)}}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         \\
+\hline
+\hline
+\\ Producer Price Index&      0.0056         &      0.0053         &      0.0111         &      0.0110         &     -0.0041         &      0.0009         \\
+\hspace{15pt} Two-way SE &       0.005         &       0.005         &       0.004         &       0.004         &       0.006         &       0.005         \\
+\hspace{15pt} p-value&       0.291         &       0.321         &       0.007         &       0.007         &       0.476         &       0.872         \\
+\\  Producer Price Index in neighboring cells&     -0.0005         &      0.0147         &      0.0009         &      0.0123         &      0.0268         &      0.0055         \\
+\hspace{15pt} Two-way SE&       0.007         &       0.006         &       0.006         &       0.006         &       0.011         &       0.014         \\
+\hspace{15pt} p-value&       0.947         &       0.021         &       0.872         &       0.046         &       0.016         &       0.694         \\
+\\ Consumer Price Index&                     &      0.0348         &                     &      0.0218         &                     &     -0.1615         \\
+\hspace{15pt} Two-way SE &                     &       0.005         &                     &       0.004         &                     &       0.015         \\
+\hspace{15pt} p-value&                     &       0.000         &                     &       0.000         &                     &       0.000         \\
+\hline \\ PPI impact (\%)&         4.0         &         3.9         &        12.5         &        12.3         &        -0.7         &         0.2         \\
+PPI impact in neighboring cells (\%)&        -0.3         &        10.7         &         1.1         &        13.8         &         4.9         &         1.0         \\
+CPI impact (\%)     &                     &        25.3         &                     &        24.4         &                     &       -29.5         \\
+Wald test: PPI = CPI&                     &                     &                     &                     &                     &                     \\
+\hspace{15pt} p-value&                     &       0.000         &                     &       0.062         &                     &       0.000         \\
+\hline \\ Country $\times$ year FE&         Yes         &          No         &         Yes         &          No         &         Yes         &          No         \\
+Country $\times$ time trend&         N/A         &         Yes         &         N/A         &         Yes         &         N/A         &         Yes         \\
+Cell FE             &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         \\
+R squared           &       0.487         &       0.424         &       0.284         &       0.213         &       0.495         &       0.339         \\
+Observations        &       41701         &       41735         &       41608         &       41644         &        5240         &        5407         \\
+\hline\hline
+\end{tabular}
+}

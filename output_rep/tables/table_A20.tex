@@ -1,0 +1,26 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{\shortstack{Incidence\\1(Conflict $>0$)}}&\multicolumn{1}{c}{1(\shortstack{Onset\\Conflict Begins)}}&\multicolumn{1}{c}{\shortstack{Offset\\1(Conflict Ends)}}\\\cmidrule(lr){2-2}\cmidrule(lr){3-3}\cmidrule(lr){4-4}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         \\
+\hline
+\hline
+\\ Producer Price Index: Food crops&      0.0292         &      0.0304         &     -0.0000         \\
+\hspace{15pt} SE    &       0.020         &       0.019         &       0.016         \\
+\hspace{15pt} p-value&       0.139         &       0.107         &       0.998         \\
+\\ Producer Price Index: Cash crops&     -0.0221         &     -0.0161         &      0.0492         \\
+\hspace{15pt} SE    &       0.021         &       0.019         &       0.020         \\
+\hspace{15pt} p-value&       0.301         &       0.394         &       0.013         \\
+\\ Consumer Price Index&      0.3646         &      0.1572         &     -0.6686         \\
+\hspace{15pt} SE    &       0.150         &       0.106         &       0.170         \\
+\hspace{15pt} p-value&       0.015         &       0.138         &       0.000         \\
+\hline \\  Wald test: PPI food = PPI Cash&                     &                     &                     \\
+\hspace{15pt} p-value&       0.073         &       0.114         &       0.035         \\
+\hline \\ Time trend&         Yes         &         Yes         &         Yes         \\
+Cell fixed effects  &         Yes         &         Yes         &         Yes         \\
+Pseudo-R squared    &       0.063         &       0.058         &       0.148         \\
+Observations        &       42092         &       37870         &        5462         \\
+\hline\hline
+\end{tabular}
+}

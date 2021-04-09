@@ -1,0 +1,26 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{2}{c}{\shortstack{Incidence\\1(Conflict $>0$)}}&\multicolumn{2}{c}{1(\shortstack{Onset\\Conflict Begins)}}&\multicolumn{2}{c}{\shortstack{Offset\\1(Conflict Ends)}}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         \\
+\hline
+\hline
+\\ Producer Price Index&      0.0076         &      0.0093         &      0.0068         &      0.0079         &      0.0092         &      0.0074         \\
+\hspace{15pt} SE    &       0.003         &       0.003         &       0.002         &       0.002         &       0.005         &       0.006         \\
+\hspace{15pt} p-value&       0.007         &       0.000         &       0.004         &       0.000         &       0.049         &       0.207         \\
+\\ Consumer Price Index&                     &      0.0066         &                     &      0.0031         &                     &     -0.1026         \\
+\hspace{15pt} SE    &                     &       0.002         &                     &       0.001         &                     &       0.021         \\
+\hspace{15pt} p-value&                     &       0.000         &                     &       0.023         &                     &       0.000         \\
+\\ ln Population    &      0.0026         &     -0.0491         &     -0.0011         &     -0.0175         &      0.2891         &      0.7885         \\
+\hspace{15pt} SE    &       0.017         &       0.017         &       0.011         &       0.012         &       0.248         &       0.245         \\
+\hspace{15pt} p-value&       0.881         &       0.005         &       0.917         &       0.161         &       0.244         &       0.001         \\
+\hline \\ PPI impact (\%)&        15.1         &        18.5         &        23.9         &        28.0         &         2.0         &         1.6         \\
+CPI impact (\%)     &                     &        13.0         &                     &        10.9         &                     &       -22.7         \\
+\hline \\  Country $\times$ Year FE&         Yes         &          No         &         Yes         &          No         &         Yes         &          No         \\
+Country $\times$ time trend&         N/A         &         Yes         &         N/A         &         Yes         &         N/A         &         Yes         \\
+Cell FE             &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         \\
+Observations        &      173213         &      157607         &      169275         &      154137         &        7403         &        6767         \\
+\hline\hline
+\end{tabular}
+}

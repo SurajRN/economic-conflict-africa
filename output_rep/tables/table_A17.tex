@@ -1,0 +1,25 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{2}{c}{\shortstack{Incidence\\1(Conflict $>0$)}}&\multicolumn{2}{c}{1(\shortstack{Onset\\Conflict Begins)}}&\multicolumn{2}{c}{\shortstack{Offset\\1(Conflict Ends)}}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         \\
+\hline
+\hline
+\\ Producer Price Index&      0.0052         &      0.0172         &      0.0116         &      0.0210         &      0.0091         &      0.0051         \\
+\hspace{15pt} Two-way SE&       0.005         &       0.004         &       0.004         &       0.004         &       0.005         &       0.008         \\
+\hspace{25pt} p-value&       0.318         &       0.000         &       0.007         &       0.000         &       0.100         &       0.540         \\
+\\ Consumer Price Index&                     &      0.0371         &                     &      0.0237         &                     &     -0.1598         \\
+\hspace{15pt} Two-way SE&                     &       0.005         &                     &       0.004         &                     &       0.013         \\
+\hspace{25pt} p-value&                     &       0.000         &                     &       0.000         &                     &       0.000         \\
+\hline \\ PPI impact (\%)&         3.8         &        12.5         &        13.0         &        23.6         &         1.7         &         0.9         \\
+CPI impact (\%)     &                     &        27.0         &                     &        26.5         &                     &       -29.2         \\
+Wald test: PPI = CPI&                     &                     &                     &                     &                     &                     \\
+\hspace{15pt} p-value&                     &       0.004         &                     &       0.663         &                     &       0.000         \\
+\hline \\ Country $\times$ year FE&         Yes         &          No         &         Yes         &          No         &         Yes         &          No         \\
+Country $\times$ time trend&         N/A         &         Yes         &         N/A         &         Yes         &         N/A         &         Yes         \\
+Cell FE             &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         \\
+Observations        &       41701         &       41735         &       41608         &       41644         &        5240         &        5407         \\
+\hline\hline
+\end{tabular}
+}
